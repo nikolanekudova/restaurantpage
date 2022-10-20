@@ -1,0 +1,91 @@
+body {
+    margin: 0px;
+    font-family: 'Signika Negative', 'Trebuchet MS', sans-serif;
+}
+
+#menu {
+    background-color: rgb(150, 176, 157);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#content {
+    background-color: white;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 70vh;
+}
+
+#footer {
+    background-color: rgb(150, 176, 157);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 20px;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn-menu {
+    background-color: rgb(90, 120, 97);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn-menu:hover, .btn-footer:hover {
+    background-color: rgb(237, 147, 69);
+    cursor: pointer;
+}
+
+.btn-footer {
+    background-color: rgb(90, 120, 97);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.img-bistro {
+    max-width: 800px;
+}
+
+.div-under-img {
+    padding-top: 20px;
+}
+
+.text-menu {
+    margin-bottom: 10px;
+}
