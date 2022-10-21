@@ -1,3 +1,5 @@
+import FoodSmaller from '../images/food-smaller.jpg';
+
 export function renderMenuPage() {
     const contentDiv = document.getElementById("content");
 
@@ -8,7 +10,7 @@ export function renderMenuPage() {
     contentDiv.appendChild(headingOneMenu);
 
     const image = document.createElement("img");
-    image.src = "../src/food-smaller.jpg";
+    image.src = FoodSmaller;
     image.setAttribute("class", "img-bistro");
     contentDiv.appendChild(image);
 

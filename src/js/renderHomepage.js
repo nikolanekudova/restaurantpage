@@ -1,3 +1,5 @@
+import BistroSmaller from '../images/bistro-smaller.jpg';
+ 
  export function renderHomepage() {
     const contentDiv = document.getElementById("content");
 
@@ -8,7 +10,7 @@
     contentDiv.appendChild(headingOneName);
 
     const image = document.createElement("img");
-    image.src = "../src/bistro-smaller.jpg";
+    image.src = BistroSmaller;
     image.setAttribute("class", "img-bistro");
     contentDiv.appendChild(image);
 

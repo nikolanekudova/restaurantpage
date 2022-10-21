@@ -1,3 +1,5 @@
+import ContactSmaller from '../images/contact-smaller.jpg';
+
 export function renderContactPage() {
     const contentDiv = document.getElementById("content");
 
@@ -8,7 +10,7 @@ export function renderContactPage() {
     contentDiv.appendChild(headingOneContact);
 
     const image = document.createElement("img");
-    image.src = "../src/contact-smaller.jpg";
+    image.src = ContactSmaller;
     image.setAttribute("class", "img-bistro");
     contentDiv.appendChild(image);
 
